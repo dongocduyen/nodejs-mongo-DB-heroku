@@ -13,6 +13,6 @@ app.set('views', './views');
 // Website routes
 app.use('/', routes);
 
-app.listen(3001, function () {
+app.listen(3000, function () {
     console.log("Starting at port 3000...");
 });
