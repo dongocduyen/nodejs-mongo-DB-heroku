@@ -1,6 +1,7 @@
 let mongoose = require('mongoose');
 
-const mongodb_url = 'mongodb://localhost:27017/test'
+//const mongodb_url = 'mongodb://localhost:27017/test'  (database bên localhost) 
+const mongodb_url = 'mongodb+srv://ngocduyen:ngocduyen@asm2-cloud.vyinr.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'  //(database bên Clusters)
 
 class Database {
     constructor() {
